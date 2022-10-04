@@ -1,0 +1,26 @@
+.Frontend .UI.ImageBlock {
+    div {
+        position: relative;
+        text-decoration: none;
+        box-shadow: var(--box-shadow);
+        border-radius: var(--border-radius);
+
+        .logo {
+            top: 0;
+            left: 0;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+            background-color: var(--color-secondary-70);
+        }
+
+        &:hover .logo {
+            opacity: 1;
+        }
+    }
+}

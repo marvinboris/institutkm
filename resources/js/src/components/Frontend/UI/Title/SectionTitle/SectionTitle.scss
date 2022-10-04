@@ -1,0 +1,55 @@
+.SectionTitle {
+    margin-bottom: 15px;
+    
+    .text {
+        .super {
+            display: none;
+        }
+
+        .title {
+            letter-spacing: -.03em;
+            color: var(--color-primary);
+            font-size: var(--section-font-size-sm);
+        }
+
+        .subtitle {
+            margin-top: 23.4px;
+            text-align: justify;
+        }
+    }
+
+    &.centered {
+        .text {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .SectionTitle {
+        margin-bottom: 20px;
+
+        .text {
+            .title {
+                margin-bottom: 3px;
+                font-size: var(--section-font-size-md);
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .SectionTitle {
+        margin-bottom: 25px;
+
+        .text {
+            .title {
+                margin-bottom: 7px;
+                font-size: var(--section-font-size);
+            }
+        }
+    }
+}

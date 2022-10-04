@@ -1,0 +1,30 @@
+.PreRegistration {
+    .title {
+        font-size: 20px;
+        font-weight: 800;
+        color: var(--color-primary);
+    }
+
+    .subtitle {
+        font-weight: 500;
+        margin-bottom: 20px;
+        font-family: var(--font-family-title);
+    }
+
+    .services-title {
+        margin-bottom: .5rem;
+    }
+
+    .submit {
+        margin-top: 40px;
+
+        button {
+            padding: 13px 25px;
+            border-radius: var(--border-radius);
+
+            i {
+                margin-left: 10px;
+            }
+        }
+    }
+}

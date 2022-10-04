@@ -1,0 +1,292 @@
+.Frontend .Home {
+    .banner {
+        z-index: 0;
+        position: relative;
+        height: calc(100vh - var(--toolbar-bottom-height-sm));
+
+        .banner__container {
+            width: 100%;
+            z-index: 10;
+            height: 100%;
+            position: absolute;
+            color: var(--banner-font-color);
+            background-color: var(--color-primary-70);
+
+            .banner__text {
+                height: 100%;
+                display: flex;
+                position: relative;
+                flex-direction: column;
+                justify-content: center;
+
+                &>div {
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .info {
+                        .title {
+                            margin-bottom: 20px;
+                            color: var(--banner-font-color);
+                            font-size: var(--banner-font-size-sm);
+                        }
+
+                        .description {
+                            margin-bottom: 40px;
+                        }
+                    }
+
+                    .selectors {
+                        left: 0;
+                        width: 100%;
+                        bottom: 16px;
+                        display: flex;
+                        position: absolute;
+                        justify-content: center;
+
+                        .publication-selector {
+                            opacity: .5;
+                            cursor: pointer;
+                            transition: var(--transition);
+
+                            .title {
+                                display: none;
+                                color: var(--banner-font-color);
+                            }
+
+                            .subjects {
+                                display: none;
+                            }
+
+                            .dot::after {
+                                content: "";
+                                display: block;
+                                width: 16px;
+                                height: 16px;
+                                margin: 0 8px;
+                                border-radius: 50%;
+                                background-color: var(--white);
+                            }
+
+                            &.active,
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: var(--color-bg);
+
+        &.training-categories {
+            .container>.row {
+                justify-content: center;
+            }
+        }
+
+        &.trainings {
+            background-color: var(--color-primary-5);
+
+            .embed-responsive {
+                border-radius: var(--border-radius);
+            }
+
+            .container>.row {
+                position: relative;
+                padding-bottom: 20px;
+
+                .col-lg-7>div {
+                    display: flex;
+                    padding: 20px;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .training-dots {
+                        display: flex;
+
+                        .training-dot {
+
+                            div {
+                                width: 9px;
+                                height: 9px;
+                                opacity: .75;
+                                cursor: pointer;
+                                transition: var(--transition);
+                                border-radius: var(--border-radius);
+                                background-color: var(--color-primary);
+
+                                &:hover {
+                                    opacity: 1;
+                                }
+                            }
+
+                            &:not(:last-child) {
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                }
+
+                .col-12 {
+                    bottom: 0;
+                    position: absolute;
+
+                    .row {
+                        justify-content: flex-end;
+
+                        .training {
+                            padding: 20px;
+                            box-shadow: var(--box-shadow);
+                            color: var(--color-primary);
+                            border-radius: var(--border-radius);
+                            background-color: var(--color-bg);
+
+                            .header {
+                                display: flex;
+                                align-items: center;
+                                margin-bottom: 20px;
+
+                                .level {
+                                    font-weight: 500;
+                                    margin-left: 20px;
+                                }
+                            }
+
+                            .title {
+                                margin-bottom: 20px;
+                                font-size: var(--subtitle-font-size);
+                            }
+
+                            .description {
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.gallery {
+            .content {
+                gap: 10px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        &.testimonies {
+            text-align: center;
+            background-color: var(--color-primary);
+
+            .SectionTitle {
+
+                .title {
+                    color: var(--color-secondary);
+                }
+            }
+
+            .row {
+                justify-content: center;
+
+                .owl-dots {
+                    display: flex;
+                    margin-top: 20px;
+                    justify-content: center;
+
+                    .owl-dot {
+                        display: block;
+
+                        span {
+                            transition: var(--transition);
+                            background-color: var(--white);
+                        }
+
+                        &.active span {
+                            background-color: var(--color-secondary);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .Frontend .Home {
+        .banner {
+            height: calc(100vh - var(--toolbar-top-height) - var(--toolbar-bottom-height));
+
+            .banner__container {
+                .banner__text>div {
+                    .info .title {
+                        font-size: var(--banner-font-size-md);
+                    }
+
+                    .selectors {
+                        display: block;
+                        position: static;
+
+                        .publication-selector {
+                            height: 100px;
+
+                            .title,
+                            .subjects {
+                                display: block;
+                            }
+
+                            .dot::after {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section {
+            &.about {
+                p {
+                    margin-bottom: 20px;
+                }
+
+                .actions {
+
+                    a,
+                    button {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1080px) {
+    .Frontend .Home {
+        .banner {
+            height: calc(100vh - var(--toolbar-top-height) - var(--toolbar-bottom-height));
+
+            .banner__container {
+                .banner__text>div {
+                    .info .title {
+                        font-size: var(--banner-font-size);
+                    }
+                }
+            }
+        }
+
+        section {
+            &.about {
+                p {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}

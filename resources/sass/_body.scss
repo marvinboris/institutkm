@@ -1,0 +1,197 @@
+:root {
+  --app-sidebar-width: 300px;
+  --flex-container-height: 650px;
+  --border-radius: 0;
+  // --border-radius: 4px;
+  --border-color: var(--light);
+
+  // App colors
+  --color-primary: var(--darkblue);
+  --color-primary-5: var(--darkblue-5);
+  --color-primary-35: var(--darkblue-35);
+  --color-primary-50: var(--darkblue-50);
+  --color-primary-70: var(--darkblue-70);
+  --color-secondary: var(--yellow);
+  --color-secondary-50: var(--yellow-50);
+  --color-secondary-70: var(--yellow-70);
+
+  --color-bg: var(--white);
+  --color-input: var(--soft);
+  --color-title: var(--border);
+  --color-text: var(--border);
+  --font-family-title: "Playfair Display", var(--font-family-sans-serif);
+  --font-family-super: "Roboto Slab", var(--font-family-sans-serif);
+
+
+
+  --transition: all .25s;
+  --transition-fast: all .1s;
+  --box-shadow: 0 10px 30px -15px var(--black-70);
+
+
+
+  --toolbar-top-height: 0px;
+  --toolbar-bottom-height: 90px;
+  --toolbar-bottom-height-sm: 90px;
+  --app-header-height: 78.47px;
+  --app-header-height-sm: 60.97px;
+  --app-title-height: 81px;
+  --app-title-height-md: 71px;
+  --app-title-height-sm: 61px;
+
+
+
+  --text-font-size: 1rem;
+  --text-font-size-md: calc(var(--text-font-size) / 1.1);
+  --text-font-size-sm: calc(var(--text-font-size) * .6);
+
+  --banner-font-color: var(--white);
+  --banner-font-size: calc(var(--text-font-size) * 50 / 16);
+  --banner-font-size-md: calc(var(--banner-font-size) / 1.1);
+  --banner-font-size-sm: calc(var(--banner-font-size) * .6);
+
+  --icon-font-size: calc(var(--text-font-size) * 50 / 16);
+  --icon-font-size-md: calc(var(--icon-font-size) / 1.1);
+  --icon-font-size-sm: calc(var(--icon-font-size) * .6);
+
+  --section-font-size: calc(var(--text-font-size) * 40 / 16);
+  --section-font-size-md: calc(var(--section-font-size) / 1.1);
+  --section-font-size-sm: 38.4px;
+
+  --block-font-size: calc(var(--text-font-size) * 30 / 16);
+  --block-font-size-md: calc(var(--block-font-size) / 1.1);
+  --block-font-size-sm: calc(var(--block-font-size) * .6);
+
+  --subtitle-font-size: calc(var(--text-font-size) * 25 / 16);
+  --subtitle-font-size-md: calc(var(--subtitle-font-size) / 1.1);
+  --subtitle-font-size-sm: calc(var(--subtitle-font-size) * .6);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  color: var(--color-text);
+
+  .title {
+    line-height: 1;
+    font-weight: 800;
+    color: var(--color-title);
+  }
+
+  .title,
+  .btn {
+    font-family: var(--font-family-title);
+  }
+
+  text {
+    font-weight: 800;
+    fill: var(--color-text);
+    font-family: var(--font-family-title);
+  }
+
+  hr {
+    opacity: .3;
+    border-color: var(--border-color);
+  }
+
+  .container,
+  .container-fluid {
+    max-width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .dropdown-toggle,
+  .dropdown-item {
+    cursor: pointer;
+  }
+
+  .modal-content {
+    background-color: var(--color-bg);
+
+    .modal-header {
+      border-color: var(--border-color);
+      font-family: var(--font-family-title);
+
+      button {
+        color: inherit;
+      }
+    }
+  }
+
+  ::-moz-selection {
+    /* Code for Firefox */
+    color: var(--app-secondary-color);
+    background: var(--app-primary-color);
+  }
+
+  ::selection {
+    color: var(--app-secondary-color);
+    background: var(--app-primary-color);
+  }
+}
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.badge-block {
+  display: block !important;
+  border-radius: 2px !important;
+  padding: 7px 10px;
+  font-weight: 300 !important;
+  font-size: 10px;
+  text-align: left !important;
+
+  i {
+    font-size: 13px;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.full-height-user {
+  min-height: calc(100vh - 70px);
+}
+
+.full-height-app {
+  min-height: calc(100vh - 66px);
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  background: transparent !important;
+  margin: 0px !important;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: calc(100vw - 120px);
+  }
+
+  .container,
+  .container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1080px) {
+  .container {
+    width: calc(100vw - 180px);
+  }
+
+  .container,
+  .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

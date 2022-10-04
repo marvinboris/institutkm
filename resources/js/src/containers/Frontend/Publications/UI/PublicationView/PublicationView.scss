@@ -1,0 +1,86 @@
+.Frontend .Publications .PublicationView {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: .5px solid var(--border);
+
+    .photo {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        display: block;
+        font-weight: 700;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: var(--color-title);
+        transition: var(--transition);
+        font-size: var(--icon-font-size-sm);
+
+        &:hover {
+            color: var(--color-primary);
+        }
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+        div {
+
+            &.date,
+            &.author {
+                margin-right: 20px;
+            }
+
+            i {
+                margin-right: 5px;
+                color: var(--color-primary);
+            }
+        }
+    }
+
+    .description {
+        margin-bottom: 20px;
+        color: var(--color-title);
+    }
+
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .links {
+            opacity: .5;
+            transition: var(--transition);
+
+            a {
+                text-decoration: none;
+                font-size: var(--icon-font-size-sm);
+
+                &:not(:last-of-type) {
+                    margin-right: 7px;
+                }
+
+                &.fa-facebook {
+                    color: #3B5998;
+                }
+
+                &.fa-twitter {
+                    color: #1EA2F2;
+                }
+
+                &.linkedin {
+                    color: #027CB5;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        .social .links {
+            opacity: 1;
+        }
+    }
+}

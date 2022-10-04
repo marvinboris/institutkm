@@ -1,0 +1,34 @@
+.Frontend .Trainings {
+    section {
+
+        .container {
+            .TrainingBlock {
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .Frontend .Trainings {
+        section {
+            .container {
+                .TrainingBlock {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .Frontend .Trainings {
+        section {
+            .container {
+                .TrainingBlock {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+}

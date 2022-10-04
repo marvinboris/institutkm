@@ -1,0 +1,10 @@
+.Frontend .Home .UI.Subject {
+    display: inline-block;
+
+    div {
+        font-weight: 500;
+        padding: 8px 24px;
+        box-shadow: var(--box-shadow);
+        border-radius: var(--border-radius);
+    }
+}

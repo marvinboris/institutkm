@@ -1,0 +1,15 @@
+.Frontend .Gallery {
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &.gallery {
+            .content {
+                gap: 10px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    }
+}

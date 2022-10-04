@@ -1,0 +1,37 @@
+.NavigationItems .NavigationItem {
+    margin: 0 5px;
+    font-family: var(--font-family-title);
+
+    .nav-link {
+        opacity: 1;
+        position: relative;
+
+        .angle {
+            transform: rotate(0);
+            transition: var(--transition);
+        }
+
+        .angle.open {
+            transform: rotate(180deg);
+        }
+
+        &::after {
+            width: 0;
+            content: "";
+            height: 1px;
+            display: block;
+            transition: var(--transition);
+            background-color: var(--color-primary);
+        }
+
+        &.active {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+
+    &:hover .nav-link::after {
+        width: 100%;
+    }
+}

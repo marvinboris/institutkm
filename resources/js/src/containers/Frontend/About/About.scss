@@ -1,0 +1,32 @@
+.Frontend .About {
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &.word {
+            .row {
+                .text {
+                    order: 2;
+
+                    p {
+                        margin-bottom: 20px;
+
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+                img {
+                    box-shadow: var(--box-shadow);
+                    border-radius: var(--border-radius);
+                }
+            }
+        }
+
+        &.about {
+            background-color: var(--color-primary-5);
+        }
+    }
+}

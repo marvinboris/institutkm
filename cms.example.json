@@ -1,0 +1,1599 @@
+{
+    "global": {
+        "app_name": "Institut KM",
+        "company_name": "Institut KM",
+        "company_logo": "\/images\/company-logo.png",
+        "logo": {
+            "big": "\/images\/logo.png",
+            "dark": "\/images\/logo.png",
+            "default": "\/images\/logo.png",
+            "light": "\/images\/logo-light.png",
+            "named": "\/images\/logo-named.png"
+        },
+        "contact": {
+            "social_networks": [
+                {
+                    "icon": "github",
+                    "link": "https:\/\/github.com\/marvinboris"
+                },
+                {
+                    "icon": "instagram",
+                    "link": "https:\/\/www.instagram.com\/borisndouma\/"
+                },
+                {
+                    "icon": "twitter",
+                    "link": "https:\/\/twitter.com\/marvinboris1"
+                },
+                {
+                    "icon": "linkedin",
+                    "link": "https:\/\/www.linkedin.com\/in\/boris-ndouma-852454180\/"
+                }
+            ],
+            "email": "jaris.ultio.21@gmail.com"
+        }
+    },
+    "pages": {
+        "fr": {
+            "general": {
+                "date": "Date",
+                "time": "Heure",
+                "home": "Accueil",
+                "days": [
+                    "Dimanche",
+                    "Lundi",
+                    "Mardi",
+                    "Mercredi",
+                    "Jeudi",
+                    "Vendredi",
+                    "Samedi"
+                ],
+                "months": [
+                    "Jan",
+                    "Fev",
+                    "Mar",
+                    "Avr",
+                    "Mai",
+                    "Jui",
+                    "Jul",
+                    "Aou",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "D\u00e9c"
+                ]
+            },
+            "auth": {
+                "footer": {
+                    "copyrights": "Copyrights",
+                    "all_rights": "Tous droits r\u00e9serv\u00e9s par"
+                },
+                "messages": {
+                    "admin": {
+                        "not_found": "Informations incorrectes.",
+                        "invalid": "Code de v\u00e9rification invalide.",
+                        "sent": "Code de v\u00e9rification envoy\u00e9 avec succ\u00e8s."
+                    },
+                    "user": {
+                        "inactive": "Votre compte n'est pas actif. Veuillez appeler l'administrateur.",
+                        "unauthorized": "Non autoris\u00e9",
+                        "sent": "Lien de r\u00e9initialisation envoy\u00e9 avec succ\u00e8s.",
+                        "reset": "Mot de passe r\u00e9initialis\u00e9 avec succ\u00e8s.",
+                        "failure": "Echec."
+                    }
+                },
+                "pages": {
+                    "user": {
+                        "login": {
+                            "title": "Bienvenue !",
+                            "sign_in": "Se connecter",
+                            "email_address": "Adresse mail",
+                            "password": "Mot de passe"
+                        }
+                    },
+                    "admin": {
+                        "login": {
+                            "sign_in_to": "Se connecter au",
+                            "sign_in": "Se connecter",
+                            "admin_panel": "Panneau de l'administrateur",
+                            "email_address": "Adresse mail",
+                            "password": "Mot de passe",
+                            "sms": "SMS",
+                            "email": "Adresse mail",
+                            "otp_method": "M\u00e9thode OTP"
+                        },
+                        "verify": {
+                            "enter": "Entrer",
+                            "verification_code": "Code de v\u00e9rification",
+                            "continue": "Continuer",
+                            "didnt_receive_code": "Aucun code re\u00e7u",
+                            "resend": "Renvoyer"
+                        }
+                    }
+                }
+            },
+            "backend": {
+                "header": {
+                    "id": "ID",
+                    "sign_out": "Se d\u00e9connecter",
+                    "no_message": "Aucun message",
+                    "no_notification": "Aucune notification",
+                    "logout": "D\u00e9connexion",
+                    "close": "Fermer",
+                    "sure_logout": "\u00cates-vous s\u00fbr de vouloir vous d\u00e9connecter",
+                    "you_have": "Vous avez",
+                    "messages": "messages",
+                    "unread_message": "message non lu",
+                    "unread_notification": "notification non lue",
+                    "unread_messages": "messages non lus",
+                    "unread_notifications": "notifications non lues",
+                    "view_all_messages": "Voir tous les messages",
+                    "view_all_notifications": "Voir toutes les notifications"
+                },
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "Tous droits r\u00e9serv\u00e9s par"
+                },
+                "sidebar": {
+                    "admin": "Administrateur",
+                    "user": "Utilisateur",
+                    "menu": {
+                        "dashboard": {
+                            "icon": "home",
+                            "title": "Tableau de bord"
+                        },
+                        "admins": {
+                            "icon": "user-cog",
+                            "title": "Administrateurs",
+                            "add": "Ajouter un administrateur",
+                            "index": "Liste des administrateurs"
+                        },
+                        "users": {
+                            "icon": "user",
+                            "title": "Utilisateurs",
+                            "add": "Ajouter un utilisateur",
+                            "index": "Liste des utilisateurs"
+                        },
+                        "roles": {
+                            "icon": "user-tag",
+                            "title": "R\u00f4les",
+                            "add": "Ajouter un r\u00f4le",
+                            "index": "Liste des r\u00f4les"
+                        },
+                        "features": {
+                            "icon": "tools",
+                            "title": "Fonctionnalit\u00e9s",
+                            "add": "Ajouter une fonctionnalit\u00e9",
+                            "index": "Liste des fonctionnalit\u00e9s"
+                        },
+                        "languages": {
+                            "icon": "language",
+                            "title": "Langues",
+                            "add": "Ajouter une langue",
+                            "index": "Liste des langues"
+                        },
+                        "cms": {
+                            "icon": "wrench",
+                            "title": "CMS",
+                            "global": "Global",
+                            "general": "G\u00e9n\u00e9ral",
+                            "auth": "Authentification",
+                            "backend": "Backend",
+                            "frontend": "Frontend"
+                        },
+                        "notifications": {
+                            "icon": "bell",
+                            "title": "Notifications"
+                        },
+                        "settings": {
+                            "icon": "sliders-h",
+                            "title": "Param\u00e8tres",
+                            "cms": "CMS",
+                            "language": "Param\u00e8tres de langue"
+                        },
+                        "subjects": {
+                            "icon": "object-group",
+                            "title": "Sujets",
+                            "add": "Ajouter un sujet",
+                            "index": "Liste des sujets"
+                        },
+                        "publication_categories": {
+                            "icon": "th-large",
+                            "title": "Catégories de publication",
+                            "add": "Ajouter une catégorie",
+                            "index": "Liste des catégories"
+                        },
+                        "publications": {
+                            "icon": "newspaper",
+                            "title": "Publications",
+                            "add": "Ajouter une publication",
+                            "index": "Liste des publications",
+                            "banner": "Publications de bannière"
+                        },
+                        "training_categories": {
+                            "icon": "object-group",
+                            "title": "Catégories de formation",
+                            "add": "Ajouter une catégorie",
+                            "index": "Liste des catégories"
+                        },
+                        "training_levels": {
+                            "icon": "layer-group",
+                            "title": "Niveaux de formation",
+                            "add": "Ajouter un niveau",
+                            "index": "Liste des niveaux"
+                        },
+                        "trainings": {
+                            "icon": "book",
+                            "title": "Formations",
+                            "add": "Ajouter une formation",
+                            "index": "Liste des formations"
+                        },
+                        "testimonies": {
+                            "icon": "comments",
+                            "title": "Témoignages",
+                            "add": "Ajouter un témoignage",
+                            "index": "Liste des témoignages"
+                        },
+                        "images": {
+                            "icon": "file-image",
+                            "title": "Images",
+                            "add": "Ajouter une image",
+                            "index": "Liste des images"
+                        }
+                    }
+                },
+                "components": {
+                    "form": {
+                        "save": "Sauvegarder",
+                        "save_add": "Sauvegarder & ajouter",
+                        "selected_file": "Fichier s\u00e9lectionn\u00e9",
+                        "active": "Actif",
+                        "inactive": "Inactif"
+                    },
+                    "list": {
+                        "action": "Action",
+                        "all": "Tous",
+                        "first": "Premi\u00e8re",
+                        "last": "Derni\u00e8re",
+                        "loading": "Chargement en cours",
+                        "print": "Imprimer",
+                        "pdf": "PDF",
+                        "csv": "CSV",
+                        "excel": "Excel",
+                        "search": "Rechercher",
+                        "see": "Voir",
+                        "show": "Afficher",
+                        "sl": "SL",
+                        "showing": "Affichant",
+                        "from": "sur",
+                        "entries": {
+                            "singular": "entr\u00e9e",
+                            "plural": "entr\u00e9es"
+                        }
+                    }
+                },
+                "messages": {
+                    "admins": {
+                        "not_found": "Administrateur introuvable.",
+                        "created": "Administrateur cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "Administrateur modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "Administrateur supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "users": {
+                        "not_found": "Utilisateur introuvable.",
+                        "created": "Utilisateur cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "Utilisateur modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "Utilisateur supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "roles": {
+                        "not_found": "R\u00f4le introuvable.",
+                        "created": "R\u00f4le cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "R\u00f4le modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "R\u00f4le supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "features": {
+                        "not_found": "Fonctionnalit\u00e9 introuvable.",
+                        "created": "Fonctionnalit\u00e9 cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Fonctionnalit\u00e9 modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Fonctionnalit\u00e9 supprim\u00e9e avec succ\u00e8s."
+                    },
+                    "languages": {
+                        "not_found": "Langue introuvable.",
+                        "created": "Langue cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Langue modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Langue supprim\u00e9e avec succ\u00e8s."
+                    },
+                    "notifications": {
+                        "not_found": "Notification introuvable."
+                    },
+                    "cms": {
+                        "not_found": "Contenu introuvable.",
+                        "updated": "Contenu modifi\u00e9 avec succ\u00e8s."
+                    },
+                    "settings": {
+                        "not_found": "Param\u00e8tre introuvable.",
+                        "created": "Param\u00e8tre cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "Param\u00e8tre modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "Param\u00e8tre supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "subjects": {
+                        "not_found": "Sujet introuvable.",
+                        "created": "Sujet cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "Sujet modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "Sujet supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "publication_categories": {
+                        "not_found": "Catégorie de publication introuvable.",
+                        "created": "Catégorie de publication cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Catégorie de publication modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Catégorie de publication supprim\u00e9e avec succ\u00e8s."
+                    },
+                    "publications": {
+                        "not_found": "Publication introuvable.",
+                        "created": "Publication cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Publication modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Publication supprim\u00e9e avec succ\u00e8s."
+                    },
+                    "training_categories": {
+                        "not_found": "Catégorie de formation introuvable.",
+                        "created": "Catégorie de formation cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Catégorie de formation modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Catégorie de formation supprim\u00e9e avec succ\u00e8s."
+                    },
+                    "training_levels": {
+                        "not_found": "Niveau de formation introuvable.",
+                        "created": "Niveau de formation cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "Niveau de formation modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "Niveau de formation supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "trainings": {
+                        "not_found": "Formation introuvable.",
+                        "created": "Formation cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Formation modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Formation supprim\u00e9e avec succ\u00e8s."
+                    },
+                    "testimonies": {
+                        "not_found": "Témoignage introuvable.",
+                        "created": "Témoignage cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "Témoignage modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "Témoignage supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "images": {
+                        "not_found": "Image introuvable.",
+                        "created": "Image cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Image modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Image supprim\u00e9e avec succ\u00e8s."
+                    }
+                },
+                "pages": {
+                    "dashboard": {
+                        "admin": {
+                            "icon": "home",
+                            "title": "Panneau de l'administrateur",
+                            "subtitle": "Tableau de bord",
+                            "blocks": {
+                                "subjects": "Sujets",
+                                "publications": "Publications",
+                                "trainings": "Formations",
+                                "images": "Images"
+                            }
+                        },
+                        "user": {
+                            "icon": "home",
+                            "title": "Panneau de l'utilisateur",
+                            "subtitle": "Tableau de bord",
+                            "blocks": {
+                                "subjects": "Sujets",
+                                "publications": "Publications",
+                                "trainings": "Formations",
+                                "images": "Images"
+                            },
+                            "general_report": {
+                                "title": "General",
+                                "subtitle": "General",
+                                "publications": "Publications",
+                                "total_publications": "Publications au total"
+                            }
+                        }
+                    },
+                    "cms": {
+                        "icon": "wrench",
+                        "title": "CMS",
+                        "global": "Global",
+                        "general": "General",
+                        "messages": "Messages",
+                        "frontend": "Frontend",
+                        "components": "Components",
+                        "backend": "Backend",
+                        "auth": "Auth",
+                        "form": {
+                            "logo": "Logo",
+                            "app_name": "Nom de l'application",
+                            "company_name": "Nom de l'entreprise",
+                            "company_logo": "Logo de l'entreprise"
+                        }
+                    },
+                    "admins": {
+                        "icon": "user-cog",
+                        "title": "Administrateurs",
+                        "add": "Ajouter un administrateur",
+                        "edit": "Modifier un administrateur",
+                        "index": "Liste des administrateurs",
+                        "form": {
+                            "name": "Nom de l'administrateur",
+                            "full_name": "Nom complet",
+                            "phone": "Num\u00e9ro de t\u00e9l\u00e9phone",
+                            "password": "Mot de passe",
+                            "password_confirmation": "Confirmation de mot de passe",
+                            "email": "Adresse mail",
+                            "admin_photo": "Photo de l'administrateur",
+                            "photo": "Photo"
+                        }
+                    },
+                    "users": {
+                        "icon": "user",
+                        "title": "Utilisateurs",
+                        "add": "Ajouter un utilisateur",
+                        "edit": "Modifier un utilisateur",
+                        "index": "Liste des utilisateurs",
+                        "form": {
+                            "name": "Nom de l'utilisateur",
+                            "full_name": "Nom complet",
+                            "phone": "Num\u00e9ro de t\u00e9l\u00e9phone",
+                            "password": "Mot de passe",
+                            "password_confirmation": "Confirmation de mot de passe",
+                            "email": "Adresse mail",
+                            "role": "R\u00f4le",
+                            "select_role": "S\u00e9lectionner un r\u00f4le",
+                            "user_photo": "Photo de l'utilisateur",
+                            "photo": "Photo"
+                        }
+                    },
+                    "roles": {
+                        "icon": "user-tag",
+                        "title": "R\u00f4les",
+                        "add": "Ajouter un r\u00f4le",
+                        "edit": "Modifier un r\u00f4le",
+                        "index": "Liste des r\u00f4les",
+                        "form": {
+                            "name": "Nom",
+                            "description": "Description",
+                            "features": "Fonctionnalit\u00e9s",
+                            "created_at": "Cr\u00e9\u00e9 le",
+                            "create": "Cr\u00e9er",
+                            "update": "Modifier",
+                            "delete": "Supprimer"
+                        }
+                    },
+                    "features": {
+                        "icon": "tools",
+                        "title": "Fonctionnalit\u00e9s",
+                        "add": "Ajouter une fonctionnalit\u00e9",
+                        "edit": "Modifier une fonctionnalit\u00e9",
+                        "index": "Liste des fonctionnalit\u00e9s",
+                        "form": {
+                            "name": "Nom",
+                            "prefix": "Pr\u00e9fixe",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "languages": {
+                        "icon": "language",
+                        "title": "Langues",
+                        "add": "Ajouter une langue",
+                        "edit": "Modifier une langue",
+                        "index": "Liste des langues",
+                        "form": {
+                            "name": "Nom",
+                            "abbr": "Abr\u00e9viation",
+                            "flag": "Drapeau",
+                            "select_flag": "S\u00e9lectionner un drapeau",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "notifications": {
+                        "icon": "bell",
+                        "title": "Notifications",
+                        "show": "D\u00e9tails des notifications",
+                        "index": "Liste des notifications",
+                        "form": {
+                            "you_have_no_notification": "Vous n'avez pas de notification."
+                        }
+                    },
+                    "settings": {
+                        "icon": "sliders-h",
+                        "title": "Param\u00e8tres",
+                        "subtitle": "Param\u00e8tres du compte",
+                        "language": {
+                            "title": "Param\u00e8tres de langue",
+                            "form": {
+                                "select_language": "S\u00e9lectionner une langue"
+                            }
+                        }
+                    },
+                    "subjects": {
+                        "icon": "object-group",
+                        "title": "Sujets",
+                        "add": "Ajouter un sujet",
+                        "edit": "Modifier un sujet",
+                        "index": "Liste des sujets",
+                        "form": {
+                            "name": "Nom",
+                            "color": "Couleur",
+                            "language": "Langue",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "publication_categories": {
+                        "icon": "th-large",
+                        "title": "Catégories de publication",
+                        "add": "Ajouter une catégorie",
+                        "edit": "Modifier une catégorie",
+                        "index": "Liste des catégories",
+                        "form": {
+                            "name": "Nom",
+                            "slug": "Slug",
+                            "is_active": "Statut",
+                            "select_status": "S\u00e9lectionner le statut",
+                            "language": "Langue",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "publications": {
+                        "icon": "newspaper",
+                        "title": "Publications",
+                        "add": "Ajouter une publication",
+                        "edit": "Modifier une publication",
+                        "index": "Liste des publications",
+                        "form": {
+                            "title": "Titre",
+                            "description": "Description",
+                            "body": "Contenu",
+                            "slug": "Slug",
+                            "photo": "Photo",
+                            "category": "Catégorie",
+                            "publication_category": "Catégorie de publication",
+                            "publication_photo": "Photo de la publication",
+                            "is_active": "Statut",
+                            "select_status": "S\u00e9lectionner le statut",
+                            "language": "Langue",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "training_categories": {
+                        "icon": "object-group",
+                        "title": "Catégories de formation",
+                        "add": "Ajouter une catégorie",
+                        "edit": "Modifier une catégorie",
+                        "index": "Liste des catégories",
+                        "form": {
+                            "subject": "Sujet",
+                            "select_subject": "Sélectionner un sujet",
+                            "photo": "Photo",
+                            "category_photo": "Photo de la catégorie",
+                            "slug": "Slug",
+                            "select_status": "S\u00e9lectionner le statut",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "training_levels": {
+                        "icon": "layer-group",
+                        "title": "Niveaux de formation",
+                        "add": "Ajouter un niveau",
+                        "edit": "Modifier un niveau",
+                        "index": "Liste des niveaux",
+                        "form": {
+                            "name": "Nom",
+                            "language": "Langue",
+                            "created_at": "Cr\u00e9\u00e9 le"
+                        }
+                    },
+                    "trainings": {
+                        "icon": "newspaper",
+                        "title": "Formations",
+                        "add": "Ajouter une formation",
+                        "edit": "Modifier une formation",
+                        "index": "Liste des formations",
+                        "form": {
+                            "title": "Titre",
+                            "description": "Description",
+                            "body": "Contenu",
+                            "slug": "Slug",
+                            "photo": "Photo",
+                            "category": "Catégorie",
+                            "level": "Niveau",
+                            "training_category": "Catégorie de formation",
+                            "training_photo": "Photo de la formation",
+                            "is_active": "Statut",
+                            "language": "Langue",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "testimonies": {
+                        "icon": "comments",
+                        "title": "Témoignages",
+                        "add": "Ajouter un témoignage",
+                        "edit": "Modifier un témoignage",
+                        "index": "Liste des témoignages",
+                        "form": {
+                            "name": "Nom",
+                            "body": "Contenu",
+                            "language": "Langue",
+                            "photo": "Photo",
+                            "testimony_photo": "Photo du témoignage",
+                            "is_active": "Statut",
+                            "select_status": "S\u00e9lectionner le statut",
+                            "created_at": "Cr\u00e9\u00e9 le"
+                        }
+                    },
+                    "images": {
+                        "icon": "file-image",
+                        "title": "Images",
+                        "add": "Ajouter une image",
+                        "edit": "Modifier une image",
+                        "index": "Liste des images",
+                        "form": {
+                            "src": "Lien",
+                            "photo": "Photo",
+                            "created_at": "Cr\u00e9\u00e9 le"
+                        }
+                    }
+                }
+            },
+            "frontend": {
+                "header": {
+                    "menu": {
+                        "about": "A propos",
+                        "trainings": "Nos Formations",
+                        "publications": "Actualités",
+                        "gallery": "Galerie",
+                        "contact": "Contact"
+                    }
+                },
+                "footer": {
+                    "top": {
+                        "navigation": {
+                            "title": "Navigation",
+                            "menu": {
+                                "home": "Accueil",
+                                "about": "A propos",
+                                "trainings": "Nos Formations",
+                                "publications": "Actualités",
+                                "contact": "Contact"
+                            }
+                        },
+                        "gallery": {
+                            "title": "Galerie",
+                            "go_to_gallery": "Aller à la galerie"
+                        },
+                        "institute": {
+                            "address": "Ndogsimbi - En Face AES Sonel Ndokotti - Face Forage UCB",
+                            "phone": "+237 653 411 116"
+                        },
+                        "trainings": {
+                            "title": "Nos formations"
+                        }
+                    },
+                    "bottom": {
+                        "all_rights": "Tous droits r\u00e9serv\u00e9s par",
+                        "social_networks": [
+                            {
+                                "icon": "facebook-square",
+                                "link": "https://www.facebook.com/Hosaminesarl/"
+                            },
+                            {
+                                "icon": "linkedin",
+                                "link": "https://www.linkedin.com/company/hosamine-sarl/"
+                            },
+                            {
+                                "icon": "whatsapp",
+                                "link": "https://wa.me/+237653411116"
+                            }
+                        ]
+                    }
+                },
+                "components": {
+                    "form": {
+                        "loading": "Chargement en cours"
+                    },
+                    "publication_block": {
+                        "read_more": "Lire la suite"
+                    },
+                    "section": {
+                        "read_more": "Lire plus"
+                    }
+                },
+                "messages": {
+                    "contact": {
+                        "success": "Formulaire soumis."
+                    },
+                    "preregistration": {
+                        "success": "Formulaire soumis."
+                    }
+                },
+                "pages": {
+                    "home": {
+                        "training_categories": {
+                            "title": "Choisissez le domaine de vos rêves",
+                            "view_all": "Toutes nos formations"
+                        },
+                        "gallery": {
+                            "title": "Galerie d'images",
+                            "view_all": "Découvrir"
+                        },
+                        "trainings": {
+                            "title": "Nos multiples formations",
+                            "view_all": "Découvrez toutes nos formations"
+                        },
+                        "testimonies": {
+                            "title": "Ce que disent les étudiants"
+                        },
+                        "publications": {
+                            "title": "Dernières nouvelles",
+                            "view_all": "Toutes nos actus"
+                        }
+                    },
+                    "about": {
+                        "title": "A propos",
+                        "subtitle": "Qui sommes-nous?",
+                        "word": {
+                            "title": "Mot de la Directrice",
+                            "description": "",
+                            "photo": "/images/direction.jpg"
+                        },
+                        "about": {
+                            "title": "L'Institut KM",
+                            "description": "<div class='subtitle'>QUELLES SONT LES FORMATIONS DE LA MODE ?</div><p>Ce sont des cursus qui forment au métiers de la conception dans le domaine de la mode.<br />Il existe différents diplômes dans le Modélisme. Ils sont caractérisés par des CURSUS COURTS ET PROFESSIONNALISANT. Néanmoins, des diplômes de niveau élevé Bacc forme aussi au modélisme<br />Ces formations peuvent être suivies dans plusieurs établissements :<br />Une École de Mode, une École de Design, une École de Stylisme, une École de Couture et aussi au Sein d'un Centre de Formations Professionnelles.<br />Ces formations ont pour objectif de former les étudiants aux Techniques du patronage, de la Couture et des finitions, afin qu'ils puissent créer leurs propres vêtements.<br />Durant ces années, ils sont amenés à développer leur créativité a interpréter leur idée et s'adapter aux tendances.<br />De nombreuses formation sans la Bacc, avec un niveau 3e pour se préparer aux métiers de :<ul><li>Styliste de mode</li><li>Modéliste</li><li>Mannequin</li><li>Customiseur</li><li>Technicien de Fabrication</li><li>Décorateur</li><li>Esthéticienne</li><li>Coiffeuse professionnelle</li></ul></p><div class='subtitle'>LES POINTS FORTS</div><p><ul><li>Satisfaction des étudiants</li><li>Une grande flexibilité dans l'emploi du temps</li><li>Des études de cas concrets</li><li>Accès à des e- tutoriels</li><li>Des formateurs professionnels</li><li>Des échanges réguliers par téléphone et par WhatsApp</li><li>Un Centre de formation physique avec des ateliers pratiques et techniques</li></ul></p>"
+                        }
+                    },
+                    "gallery": {
+                        "title": "Galerie",
+                        "subtitle": "Notre galerie d'images"
+                    },
+                    "contact": {
+                        "title": "Contact",
+                        "contact": {
+                            "title": "Contactez-nous",
+                            "description": "Laissez votre message, votre téléphone, nous vous recontacterons.",
+                            "blocks": [
+                                {
+                                    "icon": "map-marked-alt",
+                                    "title": "Adresse",
+                                    "description": "Ndogsimbi - En Face AES Sonel Ndokotti - Face Forage UCB"
+                                },
+                                {
+                                    "icon": "headset",
+                                    "title": "Appelez-nous",
+                                    "description": "+237 653 411 116"
+                                },
+                                {
+                                    "icon": "envelope",
+                                    "title": "Ecrivez-nous",
+                                    "description": "contact@institutkm.site"
+                                }
+                            ]
+                        },
+                        "form": {
+                            "name": "Nom",
+                            "email": "E-mail",
+                            "subject": "Objet",
+                            "message": "Message",
+                            "submit": "Soumettre"
+                        }
+                    },
+                    "publications": {
+                        "title": "Actualités",
+                        "subtitle": "Nos actualités",
+                        "loading": "Chargement en cours...",
+                        "continue_reading": "Continuer à lire",
+                        "search": "Rechercher",
+                        "recent_posts": "Actualités récentes"
+                    },
+                    "trainings": {
+                        "title": "Formations",
+                        "subtitle": "Nos formations",
+                        "pre_registration": "Préinscription",
+                        "form": {
+                            "title": "Préinscription",
+                            "first_name": "Prénom(s)",
+                            "last_name": "Nom(s)",
+                            "birthdate": "Date de naissance",
+                            "gender": {
+                                "label": "Genre",
+                                "male": "Homme",
+                                "female": "Femme"
+                            },
+                            "address": "Adresse",
+                            "phone": "Numéro de téléphone",
+                            "country": "Pays",
+                            "city": "Ville",
+                            "level": "Niveau d'études",
+                            "activity": "Activité",
+                            "submit": "Soumettre"
+                        }
+                    }
+                }
+            }
+        },
+        "en": {
+            "general": {
+                "date": "Date",
+                "time": "Time",
+                "home": "Home",
+                "days": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "months": [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec"
+                ]
+            },
+            "auth": {
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "All rights reserved by"
+                },
+                "messages": {
+                    "admin": {
+                        "not_found": "Invalid credentials.",
+                        "invalid": "Invalid verification code.",
+                        "sent": "Verification code successfully sent."
+                    },
+                    "user": {
+                        "inactive": "Your account is inactive. Please contact admin.",
+                        "unauthorized": "Unauthorized",
+                        "sent": "Reset link successfully sent.",
+                        "reset": "Password successfuly reset.",
+                        "failure": "Failure."
+                    }
+                },
+                "pages": {
+                    "user": {
+                        "login": {
+                            "title": "Welcome User !",
+                            "sign_in": "Sign in",
+                            "email_address": "E-mail address",
+                            "password": "Password"
+                        }
+                    },
+                    "admin": {
+                        "login": {
+                            "sign_in_to": "Sign in to",
+                            "sign_in": "Sign in",
+                            "admin_panel": "Admin panel",
+                            "email_address": "E-mail address",
+                            "password": "Password",
+                            "sms": "SMS",
+                            "email": "E-mail address",
+                            "otp_method": "OTP Method"
+                        },
+                        "verify": {
+                            "enter": "Enter",
+                            "verification_code": "Verification code",
+                            "continue": "Continue",
+                            "didnt_receive_code": "Didn't receive code",
+                            "resend": "Resend"
+                        }
+                    }
+                }
+            },
+            "backend": {
+                "header": {
+                    "id": "ID",
+                    "sign_out": "Sign out",
+                    "no_message": "No message",
+                    "no_notification": "No notification",
+                    "logout": "Logout",
+                    "close": "Close",
+                    "sure_logout": "Are you sure you want to logout",
+                    "you_have": "You have",
+                    "messages": "messages",
+                    "unread_message": "unread message",
+                    "unread_notification": "unread notification",
+                    "unread_messages": "unread messages",
+                    "unread_notifications": "unread notifications",
+                    "view_all_messages": "View all messages",
+                    "view_all_notifications": "View all notifications"
+                },
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "All rights reserved by"
+                },
+                "sidebar": {
+                    "admin": "Admin",
+                    "user": "User",
+                    "menu": {
+                        "dashboard": {
+                            "icon": "home",
+                            "title": "Dashboard"
+                        },
+                        "admins": {
+                            "icon": "user-cog",
+                            "title": "Admins",
+                            "add": "Add admin",
+                            "index": "Admin list"
+                        },
+                        "users": {
+                            "icon": "user",
+                            "title": "Users",
+                            "add": "Add user",
+                            "index": "User list"
+                        },
+                        "roles": {
+                            "icon": "user-tag",
+                            "title": "Roles",
+                            "add": "Add role",
+                            "index": "Role list"
+                        },
+                        "features": {
+                            "icon": "tools",
+                            "title": "Features",
+                            "add": "Add feature",
+                            "index": "Feature list"
+                        },
+                        "languages": {
+                            "icon": "language",
+                            "title": "Languages",
+                            "add": "Add language",
+                            "index": "Language list"
+                        },
+                        "cms": {
+                            "icon": "wrench",
+                            "title": "CMS",
+                            "global": "Global",
+                            "general": "General",
+                            "auth": "Authentification",
+                            "backend": "Backend",
+                            "frontend": "Frontend"
+                        },
+                        "notifications": {
+                            "icon": "bell",
+                            "title": "Notifications"
+                        },
+                        "settings": {
+                            "icon": "sliders-h",
+                            "title": "Settings",
+                            "cms": "CMS",
+                            "language": "Language settings"
+                        },
+                        "subjects": {
+                            "icon": "object-group",
+                            "title": "Subjects",
+                            "add": "Add subject",
+                            "index": "Subject list"
+                        },
+                        "publication_categories": {
+                            "icon": "th-large",
+                            "title": "Publication categories",
+                            "add": "Add category",
+                            "index": "Category list"
+                        },
+                        "publications": {
+                            "icon": "newspaper",
+                            "title": "Publications",
+                            "add": "Add publication",
+                            "index": "Publication list",
+                            "banner": "Banner publications"
+                        },
+                        "training_categories": {
+                            "icon": "object-group",
+                            "title": "Training categories",
+                            "add": "Add category",
+                            "index": "Category list"
+                        },
+                        "training_levels": {
+                            "icon": "layer-group",
+                            "title": "Training levels",
+                            "add": "Add level",
+                            "index": "Level list"
+                        },
+                        "trainings": {
+                            "icon": "book",
+                            "title": "Trainings",
+                            "add": "Add training",
+                            "index": "Training list"
+                        },
+                        "testimonies": {
+                            "icon": "comments",
+                            "title": "Testimonies",
+                            "add": "Add testimony",
+                            "index": "Testimony list"
+                        },
+                        "images": {
+                            "icon": "file-image",
+                            "title": "Images",
+                            "add": "Add image",
+                            "index": "Image list"
+                        }
+                    }
+                },
+                "components": {
+                    "form": {
+                        "save": "Save",
+                        "save_add": "Save & Add",
+                        "selected_file": "File selected",
+                        "active": "Active",
+                        "inactive": "Inactive"
+                    },
+                    "list": {
+                        "action": "Action",
+                        "all": "All",
+                        "first": "First",
+                        "last": "Last",
+                        "loading": "Loading",
+                        "print": "Print",
+                        "pdf": "PDF",
+                        "csv": "CSV",
+                        "excel": "Excel",
+                        "search": "Search",
+                        "see": "See",
+                        "show": "Show",
+                        "sl": "SL",
+                        "showing": "Showing",
+                        "from": "from",
+                        "entries": {
+                            "singular": "entry",
+                            "plural": "entries"
+                        }
+                    }
+                },
+                "messages": {
+                    "admins": {
+                        "not_found": "Admin not found.",
+                        "created": "Admin successfully created.",
+                        "updated": "Admin successfully updated.",
+                        "deleted": "Admin successfully deleted."
+                    },
+                    "users": {
+                        "not_found": "User not found.",
+                        "created": "User successfully created.",
+                        "updated": "User successfully updated.",
+                        "deleted": "User successfully deleted."
+                    },
+                    "roles": {
+                        "not_found": "Role not found.",
+                        "created": "Role successfully created.",
+                        "updated": "Role successfully updated.",
+                        "deleted": "Role successfully deleted."
+                    },
+                    "features": {
+                        "not_found": "Feature not found.",
+                        "created": "Feature successfully created.",
+                        "updated": "Feature successfully updated.",
+                        "deleted": "Feature successfully deleted."
+                    },
+                    "languages": {
+                        "not_found": "Language not found.",
+                        "created": "Language successfully created.",
+                        "updated": "Language successfully updated.",
+                        "deleted": "Language successfully deleted."
+                    },
+                    "notifications": {
+                        "not_found": "Notification not found."
+                    },
+                    "cms": {
+                        "not_found": "Content not found.",
+                        "updated": "Content successfully updated."
+                    },
+                    "settings": {
+                        "not_found": "Setting not found.",
+                        "created": "Setting successfully created.",
+                        "updated": "Setting successfully updated.",
+                        "deleted": "Setting successfully deleted."
+                    },
+                    "subjects": {
+                        "not_found": "Subject not found.",
+                        "created": "Subject successfully created.",
+                        "updated": "Subject successfully updated.",
+                        "deleted": "Subject successfully deleted."
+                    },
+                    "publication_categories": {
+                        "not_found": "Publication category not found.",
+                        "created": "Publication category successfully created.",
+                        "updated": "Publication category successfully updated.",
+                        "deleted": "Publication category successfully deleted."
+                    },
+                    "publications": {
+                        "not_found": "Publication not found.",
+                        "created": "Publication successfully created.",
+                        "updated": "Publication successfully updated.",
+                        "deleted": "Publication successfully deleted."
+                    },
+                    "training_categories": {
+                        "not_found": "Training category not found.",
+                        "created": "Training category successfully created.",
+                        "updated": "Training category successfully updated.",
+                        "deleted": "Training category successfully deleted."
+                    },
+                    "training_levels": {
+                        "not_found": "Training level not found.",
+                        "created": "Training level successfully created.",
+                        "updated": "Training level successfully updated.",
+                        "deleted": "Training level successfully deleted."
+                    },
+                    "trainings": {
+                        "not_found": "Training not found.",
+                        "created": "Training successfully created.",
+                        "updated": "Training successfully updated.",
+                        "deleted": "Training successfully deleted."
+                    },
+                    "testimonies": {
+                        "not_found": "Testimony not found.",
+                        "created": "Testimony successfully created.",
+                        "updated": "Testimony successfully updated.",
+                        "deleted": "Testimony successfully deleted."
+                    },
+                    "images": {
+                        "not_found": "Image not found.",
+                        "created": "Image successfully created.",
+                        "updated": "Image successfully updated.",
+                        "deleted": "Image successfully deleted."
+                    }
+                },
+                "pages": {
+                    "dashboard": {
+                        "admin": {
+                            "icon": "home",
+                            "title": "Admin panel",
+                            "subtitle": "Dashboard",
+                            "blocks": {
+                                "subjects": "Subjects",
+                                "publications": "Publications",
+                                "trainings": "Trainings",
+                                "images": "Images"
+                            }
+                        },
+                        "user": {
+                            "icon": "home",
+                            "title": "User panel",
+                            "subtitle": "Dashboard",
+                            "blocks": {
+                                "subjects": "Subjects",
+                                "publications": "Publications",
+                                "trainings": "Trainings",
+                                "images": "Images"
+                            },
+                            "general_report": {
+                                "title": "General",
+                                "subtitle": "General",
+                                "publications": "Publications",
+                                "total_publications": "Total publications"
+                            }
+                        }
+                    },
+                    "cms": {
+                        "icon": "wrench",
+                        "title": "CMS",
+                        "global": "Global",
+                        "general": "General",
+                        "messages": "Messages",
+                        "frontend": "Frontend",
+                        "components": "Components",
+                        "backend": "Backend",
+                        "auth": "Auth",
+                        "form": {
+                            "logo": "Logo",
+                            "app_name": "App name",
+                            "company_name": "Company name",
+                            "company_logo": "Company logo"
+                        }
+                    },
+                    "admins": {
+                        "icon": "user-cog",
+                        "title": "Administrators",
+                        "add": "Add admin",
+                        "edit": "Edit admin",
+                        "index": "Admin list",
+                        "form": {
+                            "name": "Admin name",
+                            "full_name": "Full name",
+                            "phone": "Phone number",
+                            "password": "Password",
+                            "password_confirmation": "Confirm password",
+                            "email": "E-mail address",
+                            "admin_photo": "Admin photo",
+                            "photo": "Photo"
+                        }
+                    },
+                    "users": {
+                        "icon": "user",
+                        "title": "Users",
+                        "add": "Add user",
+                        "edit": "Edit user",
+                        "index": "User list",
+                        "form": {
+                            "name": "User name",
+                            "full_name": "Full name",
+                            "phone": "Phone number",
+                            "password": "Password",
+                            "password_confirmation": "Confirm password",
+                            "email": "E-mail address",
+                            "role": "Role",
+                            "select_role": "Select role",
+                            "user_photo": "User photo",
+                            "photo": "Photo"
+                        }
+                    },
+                    "roles": {
+                        "icon": "user-tag",
+                        "title": "Roles",
+                        "add": "Add role",
+                        "edit": "Edit role",
+                        "index": "Role list",
+                        "form": {
+                            "name": "Name",
+                            "description": "Description",
+                            "features": "Features",
+                            "created_at": "Created at",
+                            "create": "Create",
+                            "update": "Update",
+                            "delete": "Delete"
+                        }
+                    },
+                    "features": {
+                        "icon": "tools",
+                        "title": "Features",
+                        "add": "Add feature",
+                        "edit": "Edit feature",
+                        "index": "Feature list",
+                        "form": {
+                            "name": "Name",
+                            "prefix": "Prefix",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "languages": {
+                        "icon": "language",
+                        "title": "Languages",
+                        "add": "Add language",
+                        "edit": "Edit language",
+                        "index": "Language list",
+                        "form": {
+                            "name": "Name",
+                            "abbr": "Abbreviation",
+                            "flag": "Flag",
+                            "select_flag": "Select flag",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "notifications": {
+                        "icon": "bell",
+                        "title": "Notifications",
+                        "show": "Notification details",
+                        "index": "Notification list",
+                        "form": {
+                            "you_have_no_notification": "You have no notification."
+                        }
+                    },
+                    "settings": {
+                        "icon": "sliders-h",
+                        "title": "Settings",
+                        "subtitle": "Account settings",
+                        "language": {
+                            "title": "Language settings",
+                            "form": {
+                                "select_language": "Select a language"
+                            }
+                        }
+                    },
+                    "subjects": {
+                        "icon": "object-group",
+                        "title": "Sujets",
+                        "add": "Add subject",
+                        "edit": "Edit subject",
+                        "index": "Subject list",
+                        "form": {
+                            "name": "Name",
+                            "color": "Color",
+                            "language": "Language",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "publication_categories": {
+                        "icon": "th-large",
+                        "title": "Publication categories",
+                        "add": "Add category",
+                        "edit": "Edit category",
+                        "index": "Category list",
+                        "form": {
+                            "name": "Name",
+                            "slug": "Slug",
+                            "is_active": "Status",
+                            "select_status": "Select status",
+                            "language": "Language",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "publications": {
+                        "icon": "newspaper",
+                        "title": "Publications",
+                        "add": "Add publication",
+                        "edit": "Edit publication",
+                        "index": "Publication list",
+                        "form": {
+                            "title": "Title",
+                            "description": "Description",
+                            "body": "Content",
+                            "slug": "Slug",
+                            "photo": "Photo",
+                            "category": "Category",
+                            "publication_category": "Publication category",
+                            "publication_photo": "Publication photo",
+                            "is_active": "Status",
+                            "select_status": "Select status",
+                            "language": "Language",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "training_categories": {
+                        "icon": "object-group",
+                        "title": "Training categories",
+                        "add": "Add category",
+                        "edit": "Edit category",
+                        "index": "Category list",
+                        "form": {
+                            "subject": "Subject",
+                            "select_subject": "Select subject",
+                            "photo": "Photo",
+                            "category_photo": "Category photo",
+                            "slug": "Slug",
+                            "select_status": "Select status",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "training_levels": {
+                        "icon": "layer-group",
+                        "title": "Training levels",
+                        "add": "Add level",
+                        "edit": "Edit level",
+                        "index": "Level list",
+                        "form": {
+                            "name": "Name",
+                            "language": "Language",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "trainings": {
+                        "icon": "newspaper",
+                        "title": "Trainings",
+                        "add": "Add training",
+                        "edit": "Edit training",
+                        "index": "Training list",
+                        "form": {
+                            "title": "Title",
+                            "description": "Description",
+                            "body": "Content",
+                            "slug": "Slug",
+                            "photo": "Photo",
+                            "category": "Category",
+                            "level": "Level",
+                            "training_category": "Training category",
+                            "training_photo": "Training list",
+                            "is_active": "Status",
+                            "language": "Language",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "testimonies": {
+                        "icon": "comments",
+                        "title": "Testimonies",
+                        "add": "Add testimony",
+                        "edit": "Edit testimony",
+                        "index": "Testimony list",
+                        "form": {
+                            "name": "Name",
+                            "body": "Content",
+                            "language": "Language",
+                            "photo": "Photo",
+                            "testimony_photo": "Testimony photo",
+                            "is_active": "Status",
+                            "select_status": "Select status",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "images": {
+                        "icon": "file-image",
+                        "title": "Images",
+                        "add": "Add image",
+                        "edit": "Edit image",
+                        "index": "Image list",
+                        "form": {
+                            "src": "Link",
+                            "photo": "Photo",
+                            "created_at": "Created at"
+                        }
+                    }
+                }
+            },
+            "frontend": {
+                "header": {
+                    "menu": {
+                        "about": "About us",
+                        "trainings": "Our trainings",
+                        "publications": "Publications",
+                        "gallery": "Gallery",
+                        "contact": "Contact"
+                    }
+                },
+                "footer": {
+                    "top": {
+                        "navigation": {
+                            "title": "Navigation",
+                            "menu": {
+                                "home": "Homepage",
+                                "about": "About us",
+                                "trainings": "Our trainings",
+                                "publications": "Publications",
+                                "contact": "Contact"
+                            }
+                        },
+                        "gallery": {
+                            "title": "Gallery",
+                            "go_to_gallery": "Go to gallery"
+                        },
+                        "institute": {
+                            "address": "Ndogsimbi - En Face AES Sonel Ndokotti - Face Forage UCB",
+                            "phone": "+237 653 411 116"
+                        },
+                        "trainings": {
+                            "title": "Our trainings"
+                        }
+                    },
+                    "bottom": {
+                        "all_rights": "All rights reserved by",
+                        "social_networks": [
+                            {
+                                "icon": "facebook-square",
+                                "link": "https://www.facebook.com/Hosaminesarl/"
+                            },
+                            {
+                                "icon": "linkedin",
+                                "link": "https://www.linkedin.com/company/hosamine-sarl/"
+                            },
+                            {
+                                "icon": "whatsapp",
+                                "link": "https://wa.me/+237653411116"
+                            }
+                        ]
+                    }
+                },
+                "components": {
+                    "form": {
+                        "loading": "Loading"
+                    },
+                    "publication_block": {
+                        "read_more": "Read more"
+                    },
+                    "section": {
+                        "read_more": "Read more"
+                    }
+                },
+                "messages": {
+                    "contact": {
+                        "success": "Form submitted."
+                    },
+                    "preregistration": {
+                        "success": "Form submitted."
+                    }
+                },
+                "pages": {
+                    "home": {
+                        "training_categories": {
+                            "title": "Choose the domain of your dreams",
+                            "view_all": "All our trainings"
+                        },
+                        "gallery": {
+                            "title": "Gallery",
+                            "view_all": "Discover"
+                        },
+                        "trainings": {
+                            "title": "Our multiple trainings",
+                            "view_all": "Discover all our trainings"
+                        },
+                        "testimonies": {
+                            "title": "Students say"
+                        },
+                        "publications": {
+                            "title": "Latest news",
+                            "view_all": "All our publications"
+                        }
+                    },
+                    "about": {
+                        "title": "About us",
+                        "subtitle": "Who are we?",
+                        "word": {
+                            "title": "Mot de la Directrice",
+                            "description": "",
+                            "photo": "/images/direction.jpg"
+                        },
+                        "about": {
+                            "title": "KM Institute",
+                            "description": "<div class='subtitle'>QUELLES SONT LES FORMATIONS DE LA MODE ?</div><p>Ce sont des cursus qui forment au métiers de la conception dans le domaine de la mode.<br />Il existe différents diplômes dans le Modélisme. Ils sont caractérisés par des CURSUS COURTS ET PROFESSIONNALISANT. Néanmoins, des diplômes de niveau élevé Bacc forme aussi au modélisme<br />Ces formations peuvent être suivies dans plusieurs établissements :<br />Une École de Mode, une École de Design, une École de Stylisme, une École de Couture et aussi au Sein d'un Centre de Formations Professionnelles.<br />Ces formations ont pour objectif de former les étudiants aux Techniques du patronage, de la Couture et des finitions, afin qu'ils puissent créer leurs propres vêtements.<br />Durant ces années, ils sont amenés à développer leur créativité a interpréter leur idée et s'adapter aux tendances.<br />De nombreuses formation sans la Bacc, avec un niveau 3e pour se préparer aux métiers de :<ul><li>Styliste de mode</li><li>Modéliste</li><li>Mannequin</li><li>Customiseur</li><li>Technicien de Fabrication</li><li>Décorateur</li><li>Esthéticienne</li><li>Coiffeuse professionnelle</li></ul></p><div class='subtitle'>LES POINTS FORTS</div><p><ul><li>Satisfaction des étudiants</li><li>Une grande flexibilité dans l'emploi du temps</li><li>Des études de cas concrets</li><li>Accès à des e- tutoriels</li><li>Des formateurs professionnels</li><li>Des échanges réguliers par téléphone et par WhatsApp</li><li>Un Centre de formation physique avec des ateliers pratiques et techniques</li></ul></p>"
+                        }
+                    },
+                    "gallery": {
+                        "title": "Gallery",
+                        "subtitle": "Our gallery"
+                    },
+                    "contact": {
+                        "title": "Contact",
+                        "contact": {
+                            "title": "Contactez-nous",
+                            "description": "Leave your message, your phone number, we will contact you.",
+                            "blocks": [
+                                {
+                                    "icon": "map-marked-alt",
+                                    "title": "Address",
+                                    "description": "Ndogsimbi - En Face AES Sonel Ndokotti - Face Forage UCB"
+                                },
+                                {
+                                    "icon": "headset",
+                                    "title": "Call us",
+                                    "description": "+237 653 411 116"
+                                },
+                                {
+                                    "icon": "envelope",
+                                    "title": "E-mail us",
+                                    "description": "contact@institutkm.site"
+                                }
+                            ]
+                        },
+                        "form": {
+                            "name": "Name",
+                            "email": "E-mail",
+                            "subject": "Subject",
+                            "message": "Message",
+                            "submit": "Submit"
+                        }
+                    },
+                    "publications": {
+                        "title": "Publications",
+                        "subtitle": "Our publications",
+                        "loading": "Loading...",
+                        "continue_reading": "Continue reading",
+                        "search": "Search",
+                        "recent_posts": "Recent posts"
+                    },
+                    "trainings": {
+                        "title": "Formations",
+                        "subtitle": "Our trainings",
+                        "pre_registration": "Pre-registration",
+                        "form": {
+                            "title": "Pre-registration",
+                            "first_name": "First name",
+                            "last_name": "Last name",
+                            "birthdate": "Birthdate",
+                            "gender": {
+                                "label": "Gender",
+                                "male": "Man",
+                                "female": "Woman"
+                            },
+                            "address": "Address",
+                            "phone": "Phone number",
+                            "country": "Country",
+                            "city": "City",
+                            "level": "Level of studies",
+                            "activity": "Activity",
+                            "submit": "Submit"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

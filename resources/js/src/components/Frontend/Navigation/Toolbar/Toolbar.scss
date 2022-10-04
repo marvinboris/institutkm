@@ -1,0 +1,67 @@
+.Frontend .Toolbar {
+    &.shadow {
+        top: 0;
+        width: 100%;
+        z-index: 1040;
+        position: sticky;
+        background-color: var(--white);
+
+        .content {
+            &>.container-fluid {
+                min-height: var(--toolbar-bottom-height-sm);
+            }
+
+            &>.container-fluid,
+            &>.container-fluid .items {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .collapse {
+                &>.container-fluid {
+
+                    .tel {
+                        margin: 0;
+
+                        i {
+                            margin-left: 0;
+                            margin-right: .5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Frontend .Toolbar {
+        &.shadow {
+            .content {
+                &>.container-fluid {
+                    height: var(--toolbar-bottom-height);
+                }
+
+                &>.container-fluid,
+                &>.container-fluid .items {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .Frontend .Toolbar {
+        &.shadow {
+            .content {
+                &>.container-fluid {
+                    height: var(--toolbar-bottom-height);
+                }
+            }
+        }
+    }
+}
